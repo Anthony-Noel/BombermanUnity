@@ -80,43 +80,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e840fd4f158356548aa032bf9461ed96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeDuration: 0.5
-  _distance: {x: 20, y: 20, z: 20, w: 20}
+  _meche: {fileID: 8300000, guid: d8f5b65e11b0161498552bb8432e170f, type: 3}
+  _boom: {fileID: 8300000, guid: 70bdf62f9e476604898beb162aa633e0, type: 3}
   _explosionVisualEffect: {fileID: 2476406718349847068}
-  _distanceAniamtionCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 3.20064
-      outSlope: 3.20064
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.043103453
-    - serializedVersion: 3
-      time: 0.323172
-      value: 1.0023677
-      inSlope: 0.007975768
-      outSlope: 0.007975768
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.9749189
-      value: 0
-      inSlope: -0.202839
-      outSlope: -0.202839
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.0927751
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _particleFireRateMaximum: 1500
   ExplodeButton: 0
 --- !u!2083052967 &2476406718349847068
 VisualEffect:
@@ -447,7 +413,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6369766938308184642}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -41,7 +41,7 @@ public class FloorSensor : MonoBehaviour
             Vector3 hitVector = hit.point - transform.position;
 
             _floorDistance = Vector3.Dot(hitVector, _sensorDirection.normalized);
-            Debug.Log(_floorDistance);
+            // Debug.Log(_floorDistance);
             _floorDetected = true;
 
             Debug.DrawLine(transform.position + _shift, hit.point, Color.green, Time.fixedDeltaTime);
